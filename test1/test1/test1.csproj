@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmcommit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcommit.Designer.cs">
+      <DependentUpon>frmcommit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmtest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcommit.resx">
+      <DependentUpon>frmcommit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmtest.resx">
       <DependentUpon>frmtest.cs</DependentUpon>
